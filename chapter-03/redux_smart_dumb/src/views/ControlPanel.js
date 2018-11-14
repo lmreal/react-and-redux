@@ -10,9 +10,9 @@ class ControlPanel extends Component {
   render() {
     return (
       <div style={style}>
-        <Counter caption="First" />
-        <Counter caption="Second" />
-        <Counter caption="Third" />
+        <CounterContainer caption="First" />
+        <CounterContainer caption="Second" />
+        <CounterContainer caption="Third" />
         <hr/>
         <Summary />
       </div>
